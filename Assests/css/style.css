@@ -1,0 +1,190 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header section  css */
+.headerSection{
+
+background-color: #fcdb00;
+}
+
+
+
+.headerSection .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0px;
+}
+
+
+.headerSection .navbar-brand {
+    padding: 0 15px;
+}
+
+.headerSection .navbar-default .navbar-nav>li>a {
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform:capitalize ;
+}
+
+.headerSection .header{
+    margin-bottom: 70px;
+}
+
+.inspire{
+    margin-top: 70px;
+}
+
+.featureSection{
+    padding-bottom: 10px;
+}
+
+.ipad{
+    max-width: 100%;
+} 
+
+
+.brandLinks a{
+
+ color: #010101;
+ margin-right: 15px;
+
+}
+
+.thumbInfo h5{
+ font-size: 22px;
+color: #010101;
+text-transform: capitalize;
+ margin: 0 0 15px 0;
+
+}
+
+.thumbInfo p{
+
+    color: #898989;
+    font-size: 16px;
+}
+
+.featureSection .thumbnail{
+    padding-top: 20px ;
+    margin-bottom: 90px;
+}
+
+ 
+/* footer section */
+.footerSection{
+    background-color: #010101;
+}
+
+
+.footerSection .pri-heading{
+  color: #fcdb00;
+}
+
+.footerSection .sec-heading{
+
+    color: #898989;
+    margin-bottom: 45px;
+}
+
+
+.btn-pri{
+    background-color: #fcdb00;
+    text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.signUpForm{
+    margin-bottom: 60px;
+}
+
+
+.footerSection .brandLinks a:link, .footerSection .brandLinks a:visited{
+    color: #fcdb00;
+}
+
+.footerSection .brandLinks{
+    margin-bottom: 50px;
+}
+
+.footerLinks li , .footerLinks a:link, .footerLinks a:visited{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+/* /////////////////////////Mobile approach/////////////////////// */
+
+@media all and (max-width:600px){
+    .section{
+        padding: 50px 0;
+    }
+
+    .headerSection .header {
+        margin-bottom: 0px;
+    }
+
+    .inspire {
+        margin-top: 25px;
+    }
+
+    .ipad {
+        margin-top: 45px;
+    }
+
+    .featureSection .mb-90{
+         margin-bottom: 10px ;
+    }
+
+    .featureSection .thumbnail {
+    
+        margin-bottom: 30px;
+    }
+
+    .btn-pri {
+        margin: 0;
+    }
+
+    .signUpForm {
+        margin-bottom: 40px;
+    }
+
+
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #000;
+    }
+
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #000;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #000;
+    }
+
+
+    .navbar-default .navbar-toggle:focus, .icon-bar .navbar-default .navbar-toggle:hover .icon-bar {
+           background-color: #fff;
+    }
+    
+}
+
+
+/* //////////////////////////tablet///////////////////////////////////// */
+
+
+@media all and ((min-width:321px) and (max-width:768px)){
+ 
+    .btn-pri {
+        margin: 0;
+    }
+
+
+    .featureSection .mb-90 {
+        margin-bottom: 70px;
+    }
+}
